@@ -17,9 +17,9 @@
 		{
 			dependencies: ["0CDFB8E5BB59B981"]
 			description: [
-				"Scouting reports indicate a rise in Illager activity. There have even been reports of increased necromantic activities!"
+				"偵察報告によると、邪悪な村人の活動が増加しているようです。死霊術の活動が増加しているという報告もありました。"
 				""
-				"Check the area for any undead creatures, and &ekill them&r."
+				"エリア内にアンデッドがいないか確認し、&eそれらを倒しましょう！&r"
 			]
 			icon: {
 				Count: 1b
@@ -71,7 +71,7 @@
 					value: 5L
 				}
 			]
-			title: "Training Arc"
+			title: "アークの訓練"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -155,9 +155,9 @@
 			can_repeat: false
 			dependencies: ["313921A7833269CF"]
 			description: [
-				"The scouts have come back with another report! Obscenely large Zombies, Skeletons, and Creepers have been sighted around the Overworld."
+				"偵察隊が新たな報告を持って戻ってきました! オーバーワールドのあちこちで、とてつもなく大きなゾンビ、スケルトン、クリーパーが目撃されたようです。"
 				""
-				"This can only be the work of the &eWitches&r. You'll need to find a Witch, interrogate her, and take any suspicious items."
+				"これは&eウィッチ&rの仕業に違いありません。ウィッチを見つけて尋問し、疑わしいアイテムを回収する必要があります。"
 			]
 			icon: "minecraft:cauldron"
 			id: "0388547EAFE52B5F"
@@ -195,16 +195,16 @@
 				type: "kill"
 				value: 3L
 			}]
-			title: "A Brewsome Problem"
+			title: "醸造所の問題"
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0388547EAFE52B5F"]
 			description: [
-				"It seems like the Witch was brewing up a suspicious potion. It's labelled &e\"Chemical X\"&r. Maybe you should see what it does, it might be responsible for the large creatures."
+				"ウィッチが怪しい薬を調合していたようです。ラベルには&e「化学物質X」&rと書かれています。それが何をもたらすのか見てみるといいかもしれません。もしかすると巨大な生き物の原因かもしれません。"
 				""
-				"Try tossing this onto a &eregular skeleton&r and seeing what happens. Or if I'm unlucky enough, I'll run into a &eMutant Skeleton&r on my own."
+				"これを&e通常のスケルトン&rに投げて何が起こるか見てみましょう。運が悪ければ、&eミュータントスケルトン&rに遭遇するかもしれません。"
 			]
 			icon: {
 				Count: 1b
@@ -253,7 +253,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "An Experiment Gone Wrong"
+			title: "失敗した実験"
 			x: 3.0d
 			y: 0.0d
 		}
@@ -261,11 +261,11 @@
 			dependencies: ["5FCA8577C7DB792D"]
 			dependency_requirement: "one_completed"
 			description: [
-				"You've confirmed that the Witches were brewing potions of Chemical X to be used on Overworld creatures, turning them into hideous monstrosities."
+				"魔女たちがオーバーワールドの生き物に使用するために化学物質Xの薬を醸造し、薬によってモンスターを恐ろしいクリーチャーに変えていたことを確認しました。"
 				""
-				"However, there must be some reason they've all collectively started brewing Chemical X... Perhaps it's time to do the scouting yourself. Your intuition points towards the dastardly &eIllagers.&r"
+				"しかし、彼らが全員で化学物質Xを醸造し始めたのには、何か理由があるに違いありません...。今こそ自分で偵察する時です。あなたの直感は、卑劣な&e「イラージャー」&rを指し示しています。"
 				""
-				"Maybe you can scout out what the Illagers are up to. They've been known to outsource their potion-creation to Witches in the past. You can find &ePillagers&r in &eVanilla Pillager Outposts&r which spawn frequently in the Overworld."
+				"邪悪な村人が何をしているのか偵察するのがよいでしょう。彼らは過去に、ポーションの作成を魔女に外注していたことで知られています。オーバーワールドに頻繁に出現する&eピリジャーの前哨基地&rで&e略奪者&rを見つけることができます。"
 			]
 			icon: {
 				Count: 1b
@@ -300,7 +300,7 @@
 				type: "kill"
 				value: 4L
 			}]
-			title: "Investigation"
+			title: "調査"
 			x: 6.0d
 			y: 0.0d
 		}
@@ -450,15 +450,15 @@
 			dependencies: ["783CA457464E8E3D"]
 			dependency_requirement: "one_completed"
 			description: [
-				"Looks like your suspicions were warranted. Through interrogation, you've learnt that the Illager &eInvoker&r is the mastermind behind these evil schemes."
+				"あなたの疑いは正しかったようです。尋問を通じて、この邪悪な計画の首謀者は村人&eインヴォーカー&rであることがわかりました。"
 				""
-				"Track down the Invoker and put an end to his evil plans. You've been told they can be found in &eWoodland Mansions&r... They can also apparently be encountered through forced &eGateway of the Raiders&r."
+				"インヴォーカーを追跡して、彼の邪悪な計画を終わらせてください。彼らは&e「森の館」&rにいると聞いていますが、どうやら強制的に&e「侵略者の入り口」&rを通って遭遇することもできるようです。"
 				""
-				"&cThe Invoker always spawns at level 15.&r"
+				"&cインヴォーカーは常にレベル15で出現します。&r"
 				""
-				"The Invoker Has:"
-				"&b+20% Elemental Resistance&r"
-				"&a10% Chance of Dropping Owd Rune&r"
+				"インヴォーカーが所持："
+				"&b+20% 属性耐性&r"
+				"&a10% の確率でOwd Runeをドロップ&r"
 			]
 			icon: "simplehats:crown"
 			id: "3E1EC6A042CC9310"
@@ -512,7 +512,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "The Mastermind"
+			title: "首謀者"
 			x: 7.5d
 			y: 0.0d
 		}
@@ -653,11 +653,11 @@
 		{
 			dependencies: ["727ADA9C4F420BDC"]
 			description: [
-				"You've defeated the Illager Invoker... But the Overworld is not safe yet."
+				"邪悪な邪悪な召喚者を倒した...が、地上はまだ安全ではない。"
 				""
-				"Due to the activities of the Illagers, rifts to other dimensions have opened in the Overworld. You'll need to go into each dimension and stabilize the inter-dimensional connection. Otherwise, the Overworld may eventually be overrun with other-worldly creatures!"
+				"邪悪な者たちの活動により、オーバーワールドに他の次元への裂け目が開いた。各次元に入り、次元間の接続を安定させる必要がある。さもなければ、オーバーワールドが最終的に異世界の生き物で溢れてしまうだろう。"
 				""
-				"It's time to go to the &eNether&r - a hellish landscape of flame. &eYou can get there by setting up an Obsidian portal. Activate the portal using Flint and Steel, and you'll be able to enter the Nether.&r"
+				"地獄のような炎の風景である&e「ネザー」&rに行く時間だ。黒曜石のポータルを設置することで行くことができる。火打石と打ち金を使ってポータルをアクティブにすると、ネザーに入ることが可能になる。"
 				""
 				"{image:cte2:textures/nether_portal.png width:160 height:128 align:1}"
 			]
@@ -682,20 +682,20 @@
 				title: "Visit The Nether"
 				type: "dimension"
 			}]
-			title: "Realm Unexplored"
+			title: "未踏の領域"
 			x: 10.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3E1EC6A042CC9310"]
 			description: [
-				"CTE2's Campaign quest line is split into multiple acts, where each act is associated with a different dimension, preceded by a Prologue quest line (which you're already familiar with)."
+				"CTE2のキャンペーンクエストラインは複数の章に分かれています。各章は異なるディメンションに関連付けられており、その前にプロローグクエストラインがあります。"
 				""
-				"As you complete the main quests, more side quests will unravel. And once you've completed the line of main quests (typically 5-7 quests in length), you will receive the quest to move on to the next act/dimension."
+				"メインクエストを完了すると、より多くのサイドクエストが展開されます。そして、メインクエストのライン(通常5～7程のクエストの長さ)を完了すると、次の章/ディメンションに進むためのクエストを受け取ります。"
 				""
-				"As you move from one dimension to the next, the mobs will become stronger, and the loot quality will improve. Although mobs scale to player level, they cap out in each dimension, making it possible to \"overlevel\" for a dimension if you're struggling with it."
+				"あるディメンションから次のディメンションへ移動すると、モブは強くなり、戦利品の品質が向上します。モブはプレイヤーのレベルに応じてスケールしますが、各ディメンションで上限が設定されているため、苦戦する場合はディメンションで&e「オーバーレベル」&rすることが可能です。"
 				""
-				"&eRequires 2 dependencies to be completed.&r"
+				"&e完了するためには2つの依存関係が必要です。&r"
 			]
 			icon: "minecraft:paper"
 			id: "727ADA9C4F420BDC"
@@ -721,13 +721,13 @@
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "Acts"
+			title: "章"
 			x: 9.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["15C2A55BAFCA5084"]
-			description: ["Luminescent creatures lurk in the underground to attract attention. Find some &eGlow Skeletons&r, kill them, and continue to explore the depths."]
+			description: ["地下には光る生き物潜んでおり、注目を集めている…。&eグロウスケルトン&rを見つけて倒し、さらに奥深くまで探索を続けよう。"]
 			icon: "minecraft:skeleton_skull"
 			id: "0D9B68F2990B8E94"
 			rewards: [
@@ -756,19 +756,19 @@
 				type: "kill"
 				value: 8L
 			}]
-			title: "Glow in the Dark Issues"
+			title: "暗闇で光る問題"
 			x: 3.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["051DB401E3A08D89"]
 			description: [
-				"Why are the skeletons glowing in the first place? The creatures from which skeletons arise from weren't glowing in the dark..."
+				"そもそもなぜスケルトンが光っていたのだろうか…。スケルトンのもとになった生物は暗闇で光るわけではない…。"
 				""
-				"To investigate this potential osteo-mutation, find a &eHermit Abysswalker&r in the deep depths. Be careful, it can cast various spells and summon minions to aid it in combat."
+				"このスケルトンの変異を調査するには深淵で&eハーミットアビスウォーカー&rを見つけよう。戦闘でさまざまな呪文を唱えたり手下を召喚したりするので気を付けよう。"
 				""
-				"The Hermit Abysswalker Has:"
-				"&a5% Chance of Dropping Owd Rune&r"
+				"ハーミットアビスウォーカーが所持:"
+				"&a5%の確率でOwd Runeをドロップ&r"
 			]
 			icon: {
 				Count: 1b
@@ -839,13 +839,13 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Mutagenic Source"
+			title: "変異原"
 			x: 6.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["0D9B68F2990B8E94"]
-			description: ["You've heard numerous tales of underground &eGoblins&r and &eKobolds.&r Some tales say these creatures are aggressive, and not to be trifled with. But others say Kobolds and Goblins are the friendliest underground creatures... Provided you &ebring a bit of coin&r."]
+			description: ["地下に住む&eゴブリン&rや&eコボルド&rに関する数々の物語を聞いたことがあるだろうか。いくつかの物語では、これらの生き物は攻撃的で軽く扱ってはいけないとされている。しかし、ゴブリンとコボルドは最も友好的な地下生物だという話もある。まあ、少額のお金があればの話だが。"]
 			icon: "mmorpg:loot_table_chest"
 			id: "6FF06A68E8DA88F2"
 			rewards: [{
@@ -859,20 +859,20 @@
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
-			title: "Hidden Traders"
+			title: "隠れたトレーダー"
 			x: 3.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["15C2A55BAFCA5084"]
 			description: [
-				"&eXP Blocks&r are blocks that can be crafted and placed. They let you store any &evanilla experience&r into the block."
+				"&eXPブロック&rは作成、配置することのできるブロックで、これにより&e経験値&rをブロックに保存することができる。"
 				""
-				"Usage:"
-				"- Sneak + right-click with an empty hand to add all your current experience to the block."
-				"- Right-click to remove one level from the block and add it to your experience bar."
+				"使い方:"
+				"- 手にものを持っていない状態でスニーク+右クリックで現在の経験値がすべてブロックに追加される。"
+				"- 右クリックするとブロックからレベルを1消費し、経験値バーに追加される。"
 				""
-				"&cNote that your offhand must be empty!&r"
+				"&cオフハンドは空でないといけない!&r"
 			]
 			id: "6286EB870319776D"
 			rewards: [
@@ -899,6 +899,7 @@
 				item: "globalxp:xp_block"
 				type: "item"
 			}]
+			title: "XPブロック"
 			x: 1.5d
 			y: 3.0d
 		}
@@ -968,15 +969,15 @@
 		{
 			dependencies: ["0D9B68F2990B8E94"]
 			description: [
-				"In the &eCampaign&r quest line, various quests will have a different background shape which can indicate what type of quest it is."
+				"クエストラインではクエストごとに異なる背景の形があり、クエストの種類を示す。"
 				""
-				"&aRounded Corner Square: Main Quest&r"
-				"&eCircle: Side Quest&r"
-				"&4Diamond: Mini-Boss&r"
-				"&dOctagon: Shop&r"
-				"&bHexagon: Achievement&r"
+				"&a角丸の四角形:メインクエスト&r"
+				"&e丸: サイドクエスト&r"
+				"&4ひし形: ミニボス&r"
+				"&d八角形: ショップ&r"
+				"&b六角形: 実績&r"
 				""
-				"Additionally, you will find &e\"Lost Pages\" which have the paper icon&r. These are simple click to complete quests that provide additional information."
+				"さらに、紙アイコンの&e失われたページ&rもある。これらはクリックするだけで完了するクエストで、情報を知ることができる。"
 			]
 			icon: "minecraft:paper"
 			id: "051DB401E3A08D89"
@@ -991,7 +992,7 @@
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "Quest Shapes"
+			title: "クエスト形態"
 			x: 4.5d
 			y: 4.5d
 		}
@@ -1050,15 +1051,15 @@
 		{
 			dependencies: ["313921A7833269CF"]
 			description: [
-				"Throughout your journey, you will find yourself looking for more powerful gear. Gear power can be assessed in 3 main ways:"
+				"旅の途中でより強力な装備(ギア)を探すことになる。装備(ギア)の性能は主に3つの方法で評価することができる。"
 				""
-				"1. The &elevel&r of the gear, which determines the power of the gear's stats. Gear level is typically determined by the level of the mob that is killed."
+				"1. 装備(ギア)の&eレベル&rは、装備(ギア)のステータス性能を決める。装備(ギア)の性能は、基本的に倒されたモブのレベルによって決定される。"
 				""
-				"2. The &erarity&r of the gear, which determines how many and how high the stat can roll, and how many sockets it can have. There are 7 droppable rarities: &7Common&r, &aUncommon&r, &9Rare&r, &dEpic&r, &4Legendary&r, &5Mythic&r, and &cUnique&r. Unique gear is special because the stats rolled on them are predetermined. They are powerful and can sometimes enable special styles of play."
+				"2. 装備(ギア)の&eレアリティ&rは、ステータスをいくつどのくらい高くロールできるか、また、ソケットをいくつ持つことができるかを決める。ドロップ可能なレア度は全部で7個あり、&7コモン&r、&aアンコモン&r、&9レア&r、&dエピック&r、&4レジェンダリー&r、&5ミシック&r、&cユニーク&rがある。ユニーク装備(ギア)は、ロールされるステータスが事前に決定されている特別なものであり、強力で、特別なプレイスタイルを可能にするものもある。"
 				""
-				"3. The &equality&r of the gear, which further improves the power slightly."
+				"3. 装備(ギア)の&eクオリティ&rにより性能がさらに少し向上する。"
 				""
-				"Some of these attributes can be changed via Mine and Slash &ecurrencies&r, such as the Orb of Infinity which can increase a gear's level. Additionally, some currencies can be crafted through the Mine and Slash profession system to further enhance your gear."
+				"アトリビュートの一部は、装備(ギア)のレベルを上げることができる「無限のオーブ」など、マインアンドスラッシュのカレンシーで変更できる。さらに一部のカレンシーはマインアンドスラッシュの職業システムを通じて作成可能で、装備(ギア)をさらに強化できる。"
 			]
 			icon: "minecraft:paper"
 			id: "6A8C03172A7F61C3"
@@ -1100,24 +1101,24 @@
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "Gear Improvement"
+			title: "装備(ギア)の改良"
 			x: 0.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["313921A7833269CF"]
 			description: [
-				"Favor is a system that rewards players for living. Every minute you generate a certain amount of Favor. Favor earned passively caps at a Favor of 250. However, you can go beyond this Favor limit (up to 1000) by killing mobs and opening chests."
+				"好意はプレイヤーの生存に報酬を与えるシステムで、毎分一定量の好意を生成する。受動的に獲得した行為の上限は250だが、モブを倒したり宝箱を開けたりすることで上限を超えて好意を獲得することができる(上限1000)。"
 				""
 				"{image:cte2:textures/favor.png width:140 height:100 align:1}"
 				""
-				"At 250+ Favor, you will have a 5% bonus to loot drops, and &4Legendary&r and &5Mythic&r loot and mobs can start dropping/spawning. Note that there are level requirements for certain rarities to start appearing:"
+				"好意が250を超えると戦利品のドロップに5%のボーナスが付き、&4レジェンダリー&rと&5ミシック&rの戦利品とモブがドロップ/スポーンする。特定のレア度が出現するにはレベル要件が存在する："
 				""
-				"&dEpic&r: 10+"
-				"&4Legendary&r: 25+"
-				"&5Mythic&r: 50+"
+				"&dエピック&r: 10Lv+"
+				"&4レジェンダリー&r: 25Lv+"
+				"&5ミシック&r: 50Lv+"
 				""
-				"Be careful though, &cdying will cause you to lose 125 Favor!&r"
+				"死ぬと好意が125低下する…。よく考えて行動しよう。"
 			]
 			icon: "minecraft:paper"
 			id: "0B7C635945E7F3AA"
@@ -1128,13 +1129,13 @@
 				type: "item"
 			}]
 			shape: "circle"
-			subtitle: "Lost Page"
+			subtitle: "失われたページ"
 			tasks: [{
 				id: "562B84F769A52A5D"
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "Favor"
+			title: "好意"
 			x: 0.0d
 			y: 1.5d
 		}
@@ -1202,9 +1203,9 @@
 		{
 			dependencies: ["313921A7833269CF"]
 			description: [
-				"Hold down &e`&r to activate &eUltiminer,&r which is an advanced form of &eveinmining.&r An outline will appear showing the blocks that will be mined. Hold down shift + ` to select a &epattern,&r such as Mining Tunnel which mines a staircase. Only the &eShapeless pattern will veinmine&r, the rest adhere to their pattern. "
+				"&e`&rを押し続けると&eアルティマイナー&rが起動する。これは&eヴェインマイニング&rの高度な形式で、採掘されるブロックを示すアウトラインが表示される。Shift+`を押し続けると、階段を採掘するマイニングトンネルなどの&eパターン&rを選択する。&eシェイプレスパターンのみが鉱脈採掘され&r、残りはパターンに従う。"
 				""
-				"Using Ultiminer will take &eextra durability and hunger&r."
+				"アルティマイナーを使用すると&e耐久力と空腹度を余分に消費する。&r"
 			]
 			id: "15C2A55BAFCA5084"
 			rewards: [{
@@ -1229,7 +1230,7 @@
 				}
 				type: "item"
 			}]
-			title: "Ultiminer"
+			title: "アルティマイナー"
 			x: 1.5d
 			y: 1.5d
 		}
@@ -1330,7 +1331,7 @@
 		}
 		{
 			dependencies: ["0D9B68F2990B8E94"]
-			description: ["It's time you brought the &ehunt&r to them. Kill &eone&r of every Vanilla hostile monster."]
+			description: ["今こそ&e狩り&rを仕掛ける時だ。バニラの敵対モンスターを一体ずつ倒す。"]
 			id: "324C9BEA9C3F0AC3"
 			rewards: [
 				{
@@ -1358,7 +1359,7 @@
 				id: "6E73ECEC95E48978"
 				type: "advancement"
 			}]
-			title: "The Hunt"
+			title: "狩り"
 			x: 4.5d
 			y: 3.0d
 		}
@@ -1594,5 +1595,5 @@
 		}
 	]
 	subtitle: ["Lv. 1-15"]
-	title: "Act I"
+	title: "第一章"
 }
