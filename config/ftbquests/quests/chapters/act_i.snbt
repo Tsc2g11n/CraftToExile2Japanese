@@ -999,11 +999,11 @@
 		{
 			dependencies: ["727ADA9C4F420BDC"]
 			description: [
-				"The Overworld dimension caps at level 15. If you're finding it too unrewarding due to the low level, but you're still looking to explore all that the Overworld has to offer, try visiting the &eOverworld Mirror dimension&r!"
+				"オーバーワールドのディメンションはレベル15が上限だ。レベルが低すぎてやりがいはない、でもオーバーワールドの全てを探索したい君は&eオーバーワールド・ミラーディメンション&rへ行こう！"
 				""
-				"The Overworld Mirror dimension is a replica of the Overworld, except that it scales from level 15-50!"
+				"オーバーワールド・ミラー・ディメンションはオーバーワールドの複製世界だが、Lv15からLv50までスケールするぞ。"
 				""
-				"&eTo access the Overworld Mirror dimension, you'll need to place Stone Bricks in a square, with 3x3 Poppies on the inside. Then activate it with Bone Meal by right-clicking the flowers while crouching.&r"
+				"&eオーバーワールド・ミラディメンションへ行くには、石レンガを正方形に置き、その内側に3x3のポピーを置く。そして骨粉を持ったままスニーク状態で花を右クリックしよう。&r"
 				""
 				"{image:cte2:textures/mirror_portal.png width:160 height:128 align:1}"
 			]
@@ -1044,7 +1044,7 @@
 				title: "Visit the Overworld Mirror"
 				type: "dimension"
 			}]
-			title: "Reflections"
+			title: "リフレクション"
 			x: 9.0d
 			y: -1.5d
 		}
@@ -1400,9 +1400,9 @@
 		{
 			dependencies: ["176E6C57D2F18966"]
 			description: [
-				"All this running around has to be tiring... Maybe it's time for a &emount.&r Craft the &eChocopedia&r to learn about Chocobo &ebreeding&r and &etaming.&r You can even breed special Chocobos that have the ability to &efly!&r"
+				"走り回ってばかりだと疲れてしまう…。&eチョコボ&rの繁殖や飼い方について学ぶために&eチョコペディア&rをクラフトしよう。"
 				""
-				"&eTransport&r mounts and pets of any kind through &eWaystones&r by putting them into &eCages&r or by having them on a &eLead.&r Even without a Cage or Lead, they can teleport with you through the Waystone!"
+				"マウントやペットを&eケージ&rに入れるかリードを繋ぐことでウェイストーンを通過させることが可能だ。ケージやリードがなくてもウェイストーンを通過すれば一緒にテレポートすることが可能だ。"
 			]
 			id: "730BE78211A1573B"
 			rewards: [{
@@ -1421,7 +1421,7 @@
 				item: "chococraft:chocopedia"
 				type: "item"
 			}]
-			title: "Chococraft and Mounts"
+			title: "チョコクラフトとマウント"
 			x: 10.5d
 			y: -1.5d
 		}
